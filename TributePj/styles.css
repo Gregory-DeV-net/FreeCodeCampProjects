@@ -1,0 +1,48 @@
+body{
+   
+    max-width: 80%;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#main  {
+    background-color:rgb(221, 217, 217) ;
+}
+#title {
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#image{
+display: block;
+margin: 0 auto;
+width:400px;
+height: auto;
+max-width: 100%;
+
+}
+
+#img-caption{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.title{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 25px;
+}
+ul>li{
+    margin-right: 4px;
+    padding: 10px;;
+}
+footer>p{
+    display: inline;
+}
+figure{
+  display:block;
+  margin: 0 auto;  
+}
+
