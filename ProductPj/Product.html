@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img src="images\gameathlon-high-resolution-logo.jpeg" id="header-img" alt="Web-logo">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#About">About</a>
+            <a class="nav-link" href="#Pacages">Pacages</a>
+            <a class="nav-link" href="#form">Contact</a>
+        </nav>
+    </header>
+    
+    <section id="About">
+        <div class="about-text">
+            <h2 class="about-header">Welcome to the industry.</h2>
+            <p>Glad to see you here, Welcome to our team. Our industry provides a full programm about web design, as far as , 
+                becoming a full stack develoer. Scrolling down you 'll find all the indofmation you need. 
+            </p>
+        </div>
+        <video  width="540" height="300" 
+        id="video" src="https://www.youtube.com/watch?v=TcOYmtd5dUA" controls>
+        <source src="movie.mp4" type="video/mp4">
+         <source src="movie.ogg" type="video/ogg">
+        </video>
+    </section>
+
+    <section id="Pacages">
+        <div class="info-box">
+            <h4>Front-End</h4>
+            <p>Html</p>
+            <p>Css</p>
+            <p class="prize">$400</p>
+        </div>
+        <div class="info-box">
+            <h4>Back-End</h4>
+            <p>SQL,PHP</p>
+           
+            <p>JavaScript</p>
+            <p class="prize">$600</p>
+        </div>
+        <div class="info-box">
+            <h4>Full-stack</h4>
+            <p>Front-End</p>
+            <p>Back-End</p>
+            <p class="prize">$900</p>
+        </div>
+    </section>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h2>Let's get in contact.</h2>
+        <input name="email" type="email" id="email" placeholder="Enter your e-mail here.">
+        <input name="submit" id="submit" type="submit" value="Get Started"  >
+    </form>
+
+</body>
+</html>
