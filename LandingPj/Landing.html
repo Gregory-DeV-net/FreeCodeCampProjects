@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+        <h1 id="title">Gregory's Survey Form</h1>
+        <p id="description">Give us Your personal opinion</p>
+    <form id="survey-form">
+      <fieldset>
+       <label id="name-label"> Your Full Name: <input  id="name" type="text" required placeholder="John Arbackle.."></label>
+       <label id="email-label">Your E-mail: <input name="email" type="email" id="email"  required placeholder="arouba@yahoo.com"></label>
+      </fieldset>
+      <fieldset>
+        <label id="number-label">Age: <input id="number" type="number" min="12" max="120" placeholder="20"></label>
+      </fieldset>
+      <fieldset>
+       <label for="dropdown">What are you studying <select id="dropdown">
+          <option value="">I.T</option>
+          <option value="1">Computer Science</option>
+          <option value="2">Informatics</option>
+          <option value="3">Computer Engineering</option>
+        </select></label>
+        <label for="check"><input id="check" name="do" type="radio" value="study">Styding</label>
+        <label for="check"><input id="check" name="do" type="radio" value="working">Working</label>
+        <label for="check"><input id="check" name="do" type="radio" value="nothing">Nothing</label>
+      </fieldset>
+      <fieldset>
+        <legend>What's Your income: (yearly)</legend>
+        <input value="not" type="checkbox">Unemployed
+        <input value="10000" type="checkbox">10.000
+        <input value="20000" type="checkbox">20.000
+        <input value="30000" type="checkbox">40.000
+        <input value="more" type="checkbox">50.000+
+        <textarea rows="2" cols="30" placeholder="How do you make money.. "></textarea>
+      </fieldset>
+      <input type="submit" value="submit" id="submit">
+    </form>
+  </body>
+</html>
+
